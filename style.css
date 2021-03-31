@@ -1,0 +1,762 @@
+*{
+margin: 0;
+padding:0 ;
+box-sizing:border-box;
+
+}
+
+body { 
+font-family:'Fira Sans',sans-serif ;
+
+}
+
+.hr-style{
+border:5px dotted;
+border-bottom:none ;
+width:70px;
+margin: 0 auto;
+
+
+}
+
+
+ [class*="col-"]{
+ float: left;
+ padding: 15px;
+ 
+ }
+ 
+ /* for mobile*/
+ [class*="col-"]{
+  
+  width:100%;
+ 
+ }
+ 
+ 
+.row{
+width:100%;
+
+}
+ 
+ 
+.row::after{
+content: "";
+display:block ;
+clear:both ;
+
+
+}
+
+
+/* header starts */
+
+
+
+
+.navbar{
+text-align:center ;
+padding: 1% 7%;
+background-color:#39a4ac ;
+
+
+}    
+
+
+.nav-logo img{
+width:70px ;
+border:1px solid white;
+border-radius:50px;
+margin-bottom: 20px;
+
+
+}
+
+
+nav ul li{
+list-style:none;
+display:block ;
+
+
+}
+
+nav ul li a{
+display:block;
+color:white ;
+text-decoration:none;
+margin:20px;
+padding:20px;
+line-height:10px;
+border: none;
+border-radius:5px;
+text-transform:uppercase;
+font-size:1.2rem;
+transition: .4s;
+
+
+}
+
+nav ul li a:hover{
+background-color:rgb(0,0,0,0.5) ;
+transform:scale(1.1);
+
+
+}
+
+
+
+.navbar::after{
+content:"" ;
+display: table;
+clear: both;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* header ends*/
+
+
+
+
+/* bannar starts here*/
+#banner-section{
+background-image:url(banner.jpeg);
+background-attachment:fixed ;
+background-position: center ;
+background-repeat:no-repeat ;
+background-size:cover ;
+height:100vh ;
+
+
+
+}
+
+
+.banner-contents{
+text-align:center ;
+padding:50px 10px ;
+
+
+
+}
+
+.banner-contents h1{
+font-size:3.5rem;
+text-align:center ;
+font-family:'handlee', cursive;
+margin: 20px auto;
+background-color:#ffff00 ;
+padding:20px ;
+border:none ;
+border-radius:5px;
+
+
+}
+.banner-contents p{
+
+font-size:2rem;
+background: teal;
+color: white;
+padding:10px ;
+border:none ;
+border-radius:5px;
+margin:5px 20px ;
+
+}
+
+
+.banner-contents .btn{
+width:150px;
+padding: 20px;
+font-size:1.2 rem;
+margin: 20px auto;
+background-color:green;
+color:white ;
+text-transform:uppercase;
+border:none ;
+border-radius:5px;
+transition:.4s;
+
+
+}
+
+
+.banner-contents .btn:hover{
+transform:scale(1.1);
+
+
+} 
+
+
+
+
+
+/* bannar ends here*/
+
+
+
+/* food menu starts here*/
+ 
+#food-menu{
+padding:1% 7% ;
+background-color:#fff8dc ;
+text-align:center ;
+
+
+}
+
+
+.section-title h2 { 
+margin:20px ;
+font-size: 2rem;
+
+
+
+} 
+
+
+
+
+
+
+.card-body img { 
+width: 100%;
+display:block;
+
+
+}
+
+
+.card-desc h3 {
+font-size:2rem;
+font-weight:bold;
+
+
+
+
+ }
+ 
+.card-desc{
+padding:20px;
+background-color:#fff5f0;
+
+}
+
+.card-desc p{
+padding:10px ;
+font-size:1.2rem;
+font-weight:bold;
+
+
+}
+
+.card-desc .btn-style{
+width: 120px;
+background-color:green ;
+padding:10px ;
+color:white ;
+text-transform:uppercase;
+font-size:1rem;
+border:none ;
+border-radius:5px;
+
+}
+
+.card{
+border:1px solid white;
+border-radius:5px;
+margin-top: 20px;
+transition:.4s;
+
+
+}
+
+.card:hover{
+box-shadow:5px 10px 6px gray;
+transform:scale(1.1);
+
+}
+
+
+
+
+/* food menu ends  here*/
+
+
+
+/* about us starts here*/
+
+#about-us{
+
+padding:1% 7% ;
+background-color:#f0ffff;
+text-align: center;
+
+
+}
+
+.about-us-content p{
+padding:10px ;
+margin-top:10px ;
+
+}
+
+
+.about-us-content h3{
+margin:10px ;
+font-size:2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* about us ends  here*/
+
+
+/* contact starts here*/
+#contact{
+padding:1% 7% ;
+background-color:rgba(60,60,60,0.5) ;
+text-align:center;
+
+}
+
+.contact-details h5{
+
+font-size:1.3rem;
+
+
+}
+
+.contact-details p{
+font-size:0.8rem;
+
+
+}
+
+
+
+.contact-details h3{
+
+font-size:1.8rem;
+
+
+
+}
+.map{
+
+height:250px ;
+width:100% ;
+
+
+
+}
+
+
+
+
+/* contact starts here*/
+
+
+
+/* footer starts here*/
+
+footer{
+padding:1% 7% ;
+background-color:black ;
+text-align:center ;
+color:white ;
+
+
+}
+
+.footer p{
+color:white ;
+font-size:1rem;
+
+
+}
+
+
+.social-links a{
+
+color:white ;
+margin: 10px;
+text-align:center;
+
+}
+
+.icon-style{
+border:1px solid white;
+text-align:center;
+padding:10px;
+border-radius:50%;
+line-height:32px ;
+width:32px  ;
+height: 32px;
+
+
+
+}
+
+.icon-style:hover{
+background-color: gray;
+
+
+}
+
+
+
+
+
+
+
+
+/* footer ends  here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*small devices (portrait tablets and large phones,576px and up)*/
+ @media (min-width:576px){
+ 
+.col-sm-1{
+    width:8.33%;
+
+}
+ 
+ .col-sm-2{
+    width:16.66%;
+
+}
+ .col-sm-3{
+    width:25%;
+
+}
+ .col-sm-4{
+    width:33.33%;
+
+}
+ .col-sm-5{
+    width:41.66%;
+
+}
+ .col-sm-6{
+    width:50%;
+
+}
+.col-sm-7{
+    width:58.33%;
+
+}
+
+.col-sm-8{
+    width:66.66%;
+
+}
+ 
+ .col-sm-9{
+    width:75%;
+
+}
+ 
+ .col-sm-10{
+    width:83.33%;
+
+}
+ 
+ .col-sm-11{
+    width:91.66%;
+
+}
+ 
+ .col-sm-12{
+    width:100%;
+
+}
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+
+
+
+
+/*medium devices (portrait tablets and large phones,768px and up)*/
+ @media (min-width:768px){
+ 
+ 
+ 
+ 
+ 
+.col-md-1{
+    width:8.33%;
+
+}
+ 
+ .col-md-2{
+    width:16.66%;
+
+}
+ .col-md-3{
+    width:25%;
+
+}
+ .col-md-4{
+    width:33.33%;
+
+}
+ .col-md-5{
+    width:41.66%;
+
+}
+ .col-md-6{
+    width:50%;
+
+}
+.col-md-7{
+    width:58.33%;
+
+}
+
+.col-md-8{
+    width:66.66%;
+
+}
+ 
+ .col-md-9{
+    width:75%;
+
+}
+ 
+ .col-md-10{
+    width:83.33%;
+
+}
+ 
+ .col-md-11{
+    width:91.66%;
+
+}
+ 
+ .col-md-12{
+    width:100%;
+
+}
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*large devices (portrait tablets and large phones,992px and up)*/
+ @media (min-width:992px){
+ 
+/* navbar starts here*/
+ 
+ 
+.nav-logo{
+text-align:left;
+
+}
+
+
+
+.nav-menu  {
+
+text-align:right ;
+display:inline-block;
+
+}
+
+
+nav ul li a:hover{
+background-color:transparent ;
+
+
+}
+
+
+
+ 
+ /* navbar ends here*/
+ 
+ 
+ /*banner starts here*/
+#banner-section{
+height:100vh ;
+position:relative ;
+
+
+}
+
+.banner-contents h1 { 
+width: 700px ;
+font-size:3.5rem;
+
+
+}
+
+
+.banner-contents p{
+width:500px;
+font-size:2.5rem;
+
+
+
+}
+.banner-contents .btn{
+margin: 15px 20px ;
+
+
+}
+
+.banner-contents{
+position:absolute ;
+top:50% ;
+left:50%;
+transform:translate(-50%, -50%);
+
+}
+ 
+ 
+ 
+ 
+ 
+ 
+  /*banner ends  here*/
+  
+  
+  
+  /* footer Starts here*/
+ footer p{
+ text-align:left;
+ 
+ 
+ }
+ 
+ 
+ 
+.social-links{
+text-align:right;
+padding:10px ;
+margin: 20px;
+
+
+}
+ 
+ 
+ /* footer Starts here*/
+ 
+ 
+ 
+ 
+ 
+.col-lg-1{
+    width:8.33%;
+
+}
+ 
+ .col-lg-2{
+    width:16.66%;
+
+}
+ .col-lg-3{
+    width:25%;
+
+}
+ .col-lg-4{
+    width:33.33%;
+
+}
+ .col-lg-5{
+    width:41.66%;
+
+}
+ .col-lg-6{
+    width:50%;
+
+}
+.col-lg-7{
+    width:58.33%;
+
+}
+
+.col-lg-8{
+    width:66.66%;
+
+}
+ 
+ .col-lg-9{
+    width:75%;
+
+}
+ 
+ .col-lg-10{
+    width:83.33%;
+
+}
+ 
+ .col-lg-11{
+    width:91.66%;
+
+}
+ 
+ .col-lg-12{
+    width:100%;
+
+}
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
